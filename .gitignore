@@ -1,0 +1,7 @@
+dasd/
+*.cckd
+*.cckd64
+prt/
+pch/
+log/
+*.log
