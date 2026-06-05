@@ -101,35 +101,43 @@ rotina de validação e excluído dos totais. Total de registros lidos: **16**.
 Os três jobs (`ACCTSET` -> `ACCTCOMP` -> `ACCTRUN`) executados na ordem,
 sem erros (RC=0000):
 
-![Fila de jobs executados](img/Revoult.png)
+[Fila de jobs executados]
+<img width="1132" height="1021" alt="Revoult" src="https://github.com/user-attachments/assets/2d60d500-252a-4940-8fe5-d1d38a8ec096" />
+
 
 ### 2. Datasets criados no mainframe
 
 Lista de datasets mostrando os arquivos de entrada, a biblioteca de fontes,
 a biblioteca de load e o relatório de saída:
 
-![Lista de datasets - DSLIST](img/HER01LIB.png)
+[Lista de datasets - DSLIST]
+<img width="1137" height="1023" alt="HER01LIB" src="https://github.com/user-attachments/assets/e20b18e4-c6e6-4864-a9ac-98f2f6dced56" />
 
 ### 3. Relatório na SYSOUT (job ACCTRUN)
 
 Saída do programa exibida na SYSOUT do job, agências 0001 e 0002
 (com o registro inválido):
 
-![Relatorio SYSOUT - parte 1](img/ACCTRUNJOB00090.png)
+[Relatorio SYSOUT - parte 1]
+<img width="1134" height="1016" alt="ACCTRUNJOB00090" src="https://github.com/user-attachments/assets/490d6f30-b116-46b5-b704-d39f90433ece" />
 
 Agências 0003 e 0004 e os totais gerais:
 
-![Relatorio SYSOUT - parte 2](img/ACCTRUNJOB00090PARTE2.png)
+[Relatorio SYSOUT - parte 2]
+<img width="1132" height="1014" alt="ACCTRUNJOB00090PARTE2" src="https://github.com/user-attachments/assets/ae52a676-ec02-4fa6-bce6-22171cb3d74c" />
 
 ### 4. Arquivo de saída HERC01.REPORT (adicional #3)
 
 O mesmo relatório gravado no arquivo de saída, parte 1:
 
-![Arquivo REPORT - parte 1](img/Report1.png)
+[Arquivo REPORT - parte 1]
+<img width="1130" height="1016" alt="Report1" src="https://github.com/user-attachments/assets/77fa89de-356e-433e-a0fa-e0cc5622d81b" />
 
 Parte 2, com os totais finais:
 
-![Arquivo REPORT - parte 2](img/Report2.png)
+[Arquivo REPORT - parte 2]
+<img width="1134" height="1010" alt="Report2" src="https://github.com/user-attachments/assets/725182ce-9a36-47fa-8197-b5099d970f63" />
+
 
 ---
 
